@@ -20,6 +20,8 @@ We assume that the STR counts will not match more than one individual.
 
 If the STR counts do not match exactly with any of the individuals in the CSV file, the program prints "No match".
 
+Clone this repository and run it iside it's directory
+
 
 
 
