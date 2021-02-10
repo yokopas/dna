@@ -1,15 +1,10 @@
 from sys import argv
 import csv
-import re
 
 # secure correct command
 if len(argv) != 3:
     print("Usage: python dna.py data.csv sequense.txt")
     exit(1)
-
-# define some lists an dictionaries
-occurrence = {}
-patterns_list_list = None
 
 # open csv file
 with open(argv[1],'r') as csvfile:
@@ -26,6 +21,7 @@ for line in sequence_hand:
     sequence = line
 
 # make dict with patterns_list as keys and max number of repated occurrence in the sequence as values
+occurrence  = {}
 for pattern in patterns_list:
     l = len(pattern)
     tmax = 0
