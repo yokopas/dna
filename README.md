@@ -6,7 +6,7 @@ the name of a CSV file containing the STR (Short Tandem Repeats) counts for
 a list of individuals and should require as its second command-line argument 
 the name of a text file containing the DNA sequence to identify.
 
-"$ python3 dna.py databases/large.csv sequences/5.txt"
+Example: "$ python3 dna.py databases/large.csv sequences/5.txt"
 
 If the program is executed with the incorrect number of command-line arguments, 
 the program prints an error message.
